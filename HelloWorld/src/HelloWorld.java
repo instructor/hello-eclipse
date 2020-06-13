@@ -3,7 +3,7 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello Moana!");
+		System.out.println("Hello Moana2!");
 		
 		HelloWorld hw = new HelloWorld();
 		
@@ -21,7 +21,7 @@ public class HelloWorld {
 	 * @return false, if not (0 <= n <= 7); true, else; prints binary number
 	 */
 	public boolean printBinaryLessThan8 (int n) {
-		if ( (n > 7) || (n < 0) ) {
+		if ( (n > 7) || (n < 0) ) {   
 			return false;
 		}
 		/* ASSERTION: 0 <= n <= 7 */
